@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+
+ }
+
+    .page1{
+    
+   width: 100%;
+   height: 870px;
+   background-image: url(img/bauhouse.jpg);
+   filter: grayscale(100%);
+ 
+   background-size: 10%;
+   background-repeat: no-repeat;
+   position: relative;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;}
+
+   .page1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /
+   
+ }
+ 
+.page1guide{
+    width: 1000px;
+    height: 879px;
+    position: relative;
+    margin: 0 auto;
+  
+}
+  
+    .page1-textbox1{
+    width: 313px;
+    height: 108px;
+    position: absolute;
+    
+    top: 275px;
+    left: 650px;
+}
+    .page1-text1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+    .page1-textbox2{
+    width: 463px;
+    height: 108px;
+    position: absolute;
+
+    top: 401px;
+    left: 575px;
+}
+    .page1-text2{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+  
+    color:#ffffff;
+}
+    .page1-textbox3{
+    width: 463px;
+    height: 108px;
+    position: absolute;
+    
+    top: 522px;
+    left: 709px;
+}
+    .page1-textbox3{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+
+.page2 {
+    width: 100%;
+    height: 890px;
+    background-image: linear-gradient(270deg, #ffffff 0%, #e9e9e9 50%, #9a9a9a 100%);
+    position: relative; 
+}
+
+    .overlay-image {
+    position: absolute;
+
+    left: 55%;
+    transform: translateX(-50%); 
+    width:  1920px; 
+    height: auto;
+}
+
+.page2guide{
+    width: 1000px;
+    height: 890px;
+    position: relative;
+    margin: 0 auto;
+  
+  
+}
+    .page2-textbox1{
+    width: 148px;
+    height: 73px;
+    position: absolute;
+    
+    top: 62px;
+    left: 459px;
+
+}
+    .page2-text1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    
+}
+    .page2-textbox2{
+    width: 520px;
+    height: 754px;
+    position: absolute;
+    
+    top: 135px;
+    left: 277px;
+
+}
+    .page2-text2{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+    .page2-textbox3{
+    width: 879px;
+    height: 550px;
+    position: absolute;
+   
+    top:290px;
+    left: 59px;
+
+}
+    .page2-text3{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-indent: 30px;
+}
+
+.page3 {
+    width: 100%;
+    height: 1800px;
+     position: relative; 
+     background-color: #1d1d1d;
+    .circle-outline {
+        position: absolute;
+        top: 490px; 
+        left: -300px; 
+        transform: translateX(-50%); 
+        width: 450px; 
+        height: 450px; 
+        background-color: transparent; 
+        border: 5px solid #838383; 
+        border-radius: 50%; 
+        opacity: 0.5; }}
+    .rectangle {
+            position: absolute;
+            top: 234px; 
+            left: 1%; 
+            transform: translateX(-50%); 
+            width: 600px; 
+            height: 600px; 
+            background-color: #a1a1a1; 
+            border: 5px solid #a1a1a1; 
+            opacity: 0.3; }
+         
+
+    
+    .overlay-image2 {
+        position: absolute;
+        top: 800px;
+        left: 110%;
+        transform: translateX(-50%); 
+        width:  850px; 
+        height: auto;
+        opacity: 0.5;}
+
+    .page3guide{
+        width: 1000px;
+        height: 2017px;
+        position: relative;
+        margin: 0 auto;
+     
+    }
+    .page3-textbox1{
+    width: 710px;
+    height: 105px;
+    position: absolute;
+
+    
+    top: 113px;
+    left: 153px;
+
+}
+    .page3-text1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #ffffff;
+}
+    .page3-textbox2{
+    width: 820px;
+    height: 1544px;
+    position: absolute;
+  
+    top: 347px;
+    left: 95px;
+    text-indent: 30px;
+}
+    .page3-text2{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+
+.page4 {
+    width: 100%;
+    height: 1800px;
+    background-color: black;
+    position: relative; 
+}
+.page4guide{
+    width: 1000px;
+    height:1987px;
+    position: relative;
+    margin: 0 auto;
+}
+.page4-textbox1{
+    width: 440px;
+    height: 87px;
+    position: absolute;
+
+    
+    top: 234px;
+    left: 243px;
+
+}
+    .page4-text1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #ffffff;
+}
+    .page4-textbox2{
+    width: 681px;
+    height: 1508px;
+    position: absolute;
+  
+    top: 352px;
+    left: 253px;
+    
+}
+    .page4-text2{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ffffff;
+}
+.added-image {
+    position: absolute; 
+    top: 350px; 
+    left: 10%; 
+    transform: translateX(-50%); 
+    width: auto; 
+    height: 1050px; 
+
+}
+.added-image2{
+    position: absolute;
+    top: 1200px;
+    left: 120%;
+    transform: translateX(-50%); 
+    width: auto; 
+    height: 400px; 
+
+}
+.circle {
+    position: absolute;
+    top: 250px; 
+    left: -10px; 
+    transform: translateX(-50%); 
+    width: 260px; 
+    height: 260px; 
+    background-color: white; 
+  
+    border-radius: 50%;}
+    .rectangle2{
+        position: absolute;
+        top: 360px; 
+        left: -20%; 
+        transform: translateX(-50%); 
+        width: 400px; 
+        height: 400px; 
+        background-color:transparent; 
+        border: 7px solid #a1a1a1; 
+        opacity: 0.5; }
+     
+
+.page5{
+width: 100%;
+height: 300px;
+background-color:#1c1c1c;
+position: relative; }
+
+.page5guide{
+
+        width: 1000px;
+        height: 306px;
+        position: relative;
+        margin: 0 auto;
+    
+    }
+
+        .page5-textbox1{
+        width: 877px;
+        height: 188px;
+        position: absolute;
+      
+        top: 83px;
+        left: 57px;
+    }
+        .page5-text1{
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        color: #ffffff;
+        
+    }
+
+.page6{
+width: 100%;
+height: 350px;
+background-image: url(img/bg7.png);
+opacity: 0.95;
+position: relative; }
+
+
+.page6guide{
+
+        width: 1000px;
+        height: 350px;
+        position: relative;
+        margin: 0 auto;
+  
+    }
+
+        .page6-textbox1{
+        width: 877px;
+        height: 188px;
+        position: absolute;
+     
+        top: 57px;
+        left: 57px;
+    }
+        .page6-text1{
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        color: #ffffff;
+        
+    }
+.page7{
+width: 100%;
+height: 330px;
+background-color:#8f7a7a;
+position: relative; }
+
+.page7guide{
+
+        width: 1000px;
+        height: 306px;
+        position: relative;
+        margin: 0 auto;
+    
+    }
+
+        .page7-textbox1{
+        width: 877px;
+        height: 188px;
+        position: absolute;
+        background-color: aqua;
+        top: 57px;
+        left: 57px;
+    }
+        .page7-text1{
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        color: #ffffff;
+    }
+   
+.page8{
+        width: 100%;
+        height: 280px;
+        background-color:#000000;
+        position: relative; }
+        
+        .page8guide{
+        
+                width: 1000px;
+                height: 330px;
+                position: relative;
+                margin: 0 auto;
+            
+            }
+        
+                .page8-textbox1{
+                width: 877px;
+                height: 188px;
+                position: absolute;
+                top: 110px;
+                left: 57px;
+            }
+                .page8-text1{
+                font-family: "Nanum Gothic", sans-serif;
+                font-weight: 400;
+                font-size: 28px;
+                color: #ffffff;
+            }
+.page9{
+        width: 100%;
+        height: 3650px;
+        background-color:#000000;
+        position: relative; }
+ .page9guide{
+        
+            width: 1000px;
+            height: 3200px;
+            position: relative;
+            margin: 0 auto;
+        
+        }
+      .page9-textbox4{
+            width: 900px;
+            height: 200px;
+            position: absolute;
+            top: 3120px;
+            left: 49px;
+           
+        }
+    .page9-text4{
+            font-family: "Nanum Gothic", sans-serif;
+            font-weight: 400;
+            font-size: 28px;
+            color: #ffffff;
+            }  
+    .greybg{
+        width: 1500px;
+    height: 2700px;
+  position: absolute;
+  top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+}
+.overlay-image3 {
+    position: absolute;
+   top: 1300px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 920px;
+    height: auto;
+}
+    
+        
+                .page9-textbox1{
+                width: 899px;
+                height: 1085px;
+                position: absolute;
+                top: 136px;
+                left: 49px;
+            }
+                .page9-text1{
+                font-family: "Nanum Gothic", sans-serif;
+                font-weight: 400;
+                font-size: 28px;
+               
+            }
+          
+            .page9-textbox2{
+                width: 801px;
+                height: 70px;
+                position: absolute;
+                top: 1930px;
+                left: 111px;
+              
+            }
+                .page9-text2{
+                font-family: "Nanum Gothic", sans-serif;
+                font-weight: 600;
+                font-size: 45px;
+                }
+            .page9-textbox3{
+                    width: 902px;
+                    height: 528px;
+                    position: absolute;
+                    top: 2100px;
+                    left: 49px;
+                   
+                }
+           .page9-text3{
+                    font-family: "Nanum Gothic", sans-serif;
+                    font-weight: 400;
+                    font-size: 28px;
+                    }    
+        .overlay-image7 {
+                        position: absolute; 
+                        top: 2900px; 
+                        left: 50%; 
+                        transform: translateX(-50%); 
+                        width: auto; 
+                        height: 120px; }
+            
